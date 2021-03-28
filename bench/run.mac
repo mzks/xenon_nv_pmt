@@ -1,0 +1,17 @@
+
+# change world parameter
+/usr/det/setField 0.0 tesla
+#/usr/det/setMaxStep  1.0 cm
+
+#inactivate msc
+#/process/inactivate msc
+ 
+/gun/particle opticalphoton
+/gun/usr/vtx 3
+/gun/usr/particle 3
+
+/run/initialize
+
+/tracking/verbose 0
+/run/beamOn 100000
+
